@@ -1,4 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
+// 10/6/2025 Treasure Grabber for Team Compitition
+// UW-Stout Algorithms 2025-26
+// Luke Kedrowski
 using System.Collections;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -112,4 +115,5 @@ foreach (Treasure t in cave)
 
 Console.WriteLine("Total Bag Value: " + totalValue);
 Console.WriteLine("Total Bag Weight: " + currweight);
+
 Console.WriteLine("Time Taken: " + time.ToString());
